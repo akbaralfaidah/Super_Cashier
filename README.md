@@ -85,3 +85,26 @@ Alur pembuatan sistem kasir self service:
     Fungsi untuk menampilkan semua pesanan dan total belanja
 
 
+## Test Case
+
+
+### test case 1 menambahkan item
+transaksi = Transaction()
+
+transaksi.add_item("Ayam goreng", 2, 20_000)
+
+transaksi.add_item("Pasta Gigi", 3, 15_000)
+
+### test case 2 menghapus item
+transaksi.delete_item("Pasta Gigi")
+
+### test case 3 mereset transaksi
+transaksi.reset_transaction()
+
+### test case 4 menghitung total belanja
+transaksi = Transaction()
+
+transaksi.add_item("Ayam goreng", 2, 20_000)
+
+transaksi.add_item("Pasta Gigi", 3, 15_000)
+transaksi.total_price()
