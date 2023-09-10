@@ -67,4 +67,21 @@ Alur pembuatan sistem kasir self service:
 
    harga_baru(int) = harga baru dari nama item yang dibeli
 
-   
+6. delete_item(nama)
+   Fungsi untuk menghapus data nama item beserta jumlah dan harganya dari dictionary.
+
+   nama(String) = nama item yang ingin dihapus
+
+7. reset_transaction()
+   Fungsi untuk menghapus semua data pesanan di dalam dictionary
+
+8. print_order()
+   Fungsi untuk menampikan semua pesanan ke dalam dictionary
+
+9. check_order()
+   Fungsi untuk mengecek validitas dan menampilkan semua pesanan dalam dictionary
+
+10. total_price()
+    Fungsi untuk menampilkan semua pesanan dan total belanja
+
+
